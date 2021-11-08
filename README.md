@@ -1,7 +1,7 @@
 # sublime-poor-mans-tsql-formatter
 
 A Sublime Text plugin that runs the [poor-mans-t-sql-formatter-npm-cli](https://github.com/TaoK/poor-mans-t-sql-formatter-npm-cli) node library on the current file. poor-mans-t-sql-formatter-npm-cli is a command line interface for the [Poor Man's T-SQL Formatter](http://architectshack.com/PoorMansTSqlFormatter.ashx) tool.
-This is my first Sublime plugin and this project is very inspired by [sublime-sql-formatter](https://github.com/kufii/sublime-sql-formatter) project.
+This is my first Sublime plugin and this reason is very inspired by [sublime-sql-formatter](https://github.com/kufii/sublime-sql-formatter) project. I build this generally for my personal use, but feel free to use it.
 
 ## Installation
 
@@ -46,6 +46,7 @@ By default the following settings are used:
 		"osx": [],
 		"windows": []
 	},
+
 
 	/**
 	 * Standard formatter options
