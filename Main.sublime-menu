@@ -1,0 +1,40 @@
+[{
+	"id": "edit",
+	"children": [
+		{
+		"id" : "poorSqlFormat",
+		"caption": "Poor Man's T-SQL Formatter: Format SQL",
+		"command": "poor_mans_tsql_formatter"
+		}
+	]
+}, {
+	"id": "preferences",
+	"children": [
+		{
+			"id": "package-settings",
+			"children": [
+				{
+					"caption": "Poor Man's T-SQL Formatter",
+					"children": [
+						 {
+							"caption": "Settings",
+							"command": "edit_settings",
+							"args": {
+								"base_file": "${packages}/poor-mans-tsql-formatter/poor-mans-tsql-formatter.sublime-settings",
+								"default": "// Settings in here override those in \"poor-mans-tsql-formatter/poor-mans-tsql-formatter.sublime-settings\",\n\n{\n\t$0\n}\n"
+							}
+						},
+						{
+							"caption": "Key Bindings",
+							"command": "edit_settings",
+							"args": {
+								"base_file": "${packages}/poor-mans-tsql-formatter/Default ($platform).sublime-keymap",
+								"default": "[\n\t$0\n]\n"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}]

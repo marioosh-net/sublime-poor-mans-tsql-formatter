@@ -1,0 +1,7 @@
+[
+	{
+		"id" : "poorSqlFormat",
+		"caption": "Poor Man's T-SQL Formatter: Format SQL",
+		"command": "poor_mans_tsql_formatter"
+	}
+]
